@@ -18,6 +18,19 @@
 	align-self: center;
 }
 
+
+.mainBtn {
+	text-align: center;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 1em;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 4em;
+  border-radius: 0.5em;
+}
+
 .background {
   background: no-repeat center center fixed;
 /*  background-image: linear-gradient(rgba(171,0,45, 0.7), rgba(171,0,45, 0.7)),*/

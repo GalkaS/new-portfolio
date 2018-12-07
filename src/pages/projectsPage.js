@@ -14,11 +14,9 @@ const ProjectsPage = () => {
 		  	<div className="projectCards">
 		      <ProjectsList projects={projects}/>
 		    </div>
-		    <div className="btn">
-		    	<Link className="btnLink" to={'/'}>
-		    		<Button text="GO BACK"/>
+		    	<Link className="btnLink btn mainBtn" to={'/'}>
+		    	<Button text="Go back" />
 		    	</Link>
-		    </div>
 	    </div>
     </div>
   );

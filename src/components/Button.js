@@ -2,7 +2,8 @@ import React from 'react'
 import "../css/button.css"
 
 const Button = (props) => (
-	<div className="mainBtn">
+	// <div className="mainBtn">
+	<div>
  	  <div>{props.text}</div>
 	</div>
 )
