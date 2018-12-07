@@ -13,7 +13,7 @@ const Home = () => {
   	<div className="container">
       <div className="header">
         <Header text="HI. I'M GALA." />
-        <Description text="I'm cool!"/>
+        <Description text="QA Engineer & Front-End Developer"/>
       </div>
       <div className="button">
         <Link className="buttonLink" to={'/projectsPage'}>
