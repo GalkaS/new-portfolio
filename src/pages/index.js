@@ -9,14 +9,17 @@ import Button from "../components/Button";
 
 const Home = () => {
   return (
-    <div className="background">
+    <div>
+      <div className="redOverlay"></div>
     	<div className="container">
         <div className="header">
           <Header text="HI. I'M GALA." />
-          <Description text="QA Engineer & Front-End Developer"/>
         </div>
-        <Link className="button mainBtn buttonLink" to={'/projectsPage'}>
-        	<Button text="CHECK OUT MY PROJECTS" />
+        <div className="descr">
+          <Description />
+        </div>
+        <Link className="button buttonLink" to={'/projectsPage'}>
+        	<Button text="CHECK MY PROJECTS" />
         </Link>
       </div>
     </div>

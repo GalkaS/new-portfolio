@@ -9,14 +9,15 @@ import { Link } from 'gatsby'
 
 const ProjectsPage = () => {
   return (
-  	<div className="projectBackground">
+  	<div>
+  	<div className="blueOverlay"></div>
 	  	<div className="projectContainer">
 		  	<div className="projectCards">
 		      <ProjectsList projects={projects}/>
 		    </div>
-		    	<Link className="btnLink btn mainBtn" to={'/'}>
-		    	<Button text="Go back" />
-		    	</Link>
+	    	<Link className="btnLink projectBtn" to={'/'}>
+	    		<Button text="GO BACK" />
+	    	</Link>
 	    </div>
     </div>
   );

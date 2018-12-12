@@ -3,7 +3,8 @@ import "../css/description.css"
 
 const Description = (props) => (
 	<div className="description">
- 	  <div>{props.text}</div>
+ 	  <p>I'm a QA Enginner & Front-End Developer based in Canada.</p>
+ 	  <p>You can find me on <a className="socialMedia" href="https://www.linkedin.com/in/galasi">Linkedin</a> and <a className="socialMedia" href="https://github.com/GalkaS">Github</a>.</p>
 	</div>
 )
 
