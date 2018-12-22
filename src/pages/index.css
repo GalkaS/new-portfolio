@@ -1,44 +1,77 @@
 .container {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(4, 1fr);
+	grid-template-rows: auto; 
 	font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
 }
 
 .header {
-	grid-row: 2/3;
+	grid-row: 1/2;
 	grid-column: 2/5;
+  margin-top: 8em;
+  justify-self: center;
+  align-self: center;
+}
+.descr {
+  grid-row: 2/3;
+  grid-column: 2/5;
+  justify-self: center;
+  align-self: center;
 }
 
 .button {
 	grid-row: 3/4;
 	grid-column: 2/5;
-	width: 17em;
 	justify-self: center;
 	align-self: center;
 }
 
-
-.mainBtn {
-	text-align: center;
-  border: 2px solid white;
-  background-color: transparent;
-  color: white;
-  padding: 1em;
-  font-size: 1em;
-  cursor: pointer;
-  margin-top: 4em;
-  border-radius: 0.5em;
+html {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  /*background: url('../images/bike.jpg') no-repeat center center fixed;*/
+  /*background-image: linear-gradient(rgba(0,0,20, 0.8), rgba(0,0,20, 0.8)),*/
+  /*background-image: linear-gradient(rgba(249,0,0, 0.6), rgba(249,0,0, 0.6)),*/
+  /*url('../images/bike.jpg');*/
+  background-image: url('../images/bike.jpg');
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-.background {
-  background: no-repeat center center fixed;
-/*  background-image: linear-gradient(rgba(171,0,45, 0.7), rgba(171,0,45, 0.7)),*/
-  background-image: linear-gradient(rgba(0,0,20, 0.8), rgba(0,0,20, 0.8)),
-  url('../images/bike.jpg');
-  background-size: cover;
+body {
+  min-height: 100%;
+  height: 100%;
+}
+
+
+.redOverlay {
+  background-color: rgba(189,20,30,0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 .buttonLink {
 	text-decoration: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .header {
+    font-size: .45em;
+    margin-top: 6em;
+    margin-bottom: 5em;
+    grid-column: 2/5;
+  }
+
+  .descr {
+    font-size: .7em;
+  }
+
+  html {
+    background-size: 275%;
+  }
 }
