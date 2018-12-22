@@ -4,7 +4,6 @@ import "./projectsPage.css"
 import ProjectsList from "../components/ProjectsList";
 import projects from "../../data/projects-info";
 import Button from "../components/Button";
-import { Link } from 'gatsby'
 
 
 const ProjectsPage = () => {
@@ -15,9 +14,12 @@ const ProjectsPage = () => {
 		  	<div className="projectCards">
 		      <ProjectsList projects={projects}/>
 		    </div>
-	    	<Link className="btnLink projectBtn" to={'/'}>
-	    		<Button text="GO BACK" />
-	    	</Link>
+	    	<div className="btnLink projectBtn">
+	    		<Button 
+	    		text="GO BACK"
+	    		path="/"
+	    		/>
+	    	</div>
 	    </div>
     </div>
   );

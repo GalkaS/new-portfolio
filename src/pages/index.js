@@ -1,7 +1,6 @@
 import React from "react"
 import "normalize.css"
 import "./index.css"
-import { Link } from 'gatsby'
 import Header from "../components/Header";
 import Description from "../components/Description";
 import Button from "../components/Button";
@@ -18,9 +17,11 @@ const Home = () => {
         <div className="descr">
           <Description />
         </div>
-        <Link className="button buttonLink" to={'/projectsPage'}>
-        	<Button text="CHECK MY PROJECTS" />
-        </Link>
+        <div className="buttonLink button">
+        	<Button
+          text="CHECK MY PROJECTS"
+          path="/projectsPage" />
+          </div>
       </div>
     </div>
   );
