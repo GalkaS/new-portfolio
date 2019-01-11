@@ -24,7 +24,7 @@
 }
 
 .bckgr {
-	opacity: 0.5;
+	opacity: 0.3;
 	grid-row: 1/2;
 	grid-column: 1/2;
 }

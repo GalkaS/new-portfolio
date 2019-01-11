@@ -48,7 +48,7 @@ const projects = [
 		image: githubApp,
 		url: "https://lrq5krw75m.codesandbox.io/",
 		sourceLink: "https://codesandbox.io/s/lrq5krw75m",
-		color: "#2E2E38"
+		color: "#262627"
 	},
 
 	{
@@ -56,7 +56,7 @@ const projects = [
 		image: updateCssVariablesWithJs,
 		url: "https://codepen.io/GalkaS/full/WMMQVQ/",
 		sourceLink: "https://codepen.io/GalkaS/pen/WMMQVQ",
-		color: "#22334D"
+		color: "#121c2a"
 	},
 
 	{
@@ -64,7 +64,7 @@ const projects = [
 		image: JsAndCssClock,
 		url: "https://codepen.io/GalkaS/full/VQbXPv/",
 		sourceLink: "https://codepen.io/GalkaS/pen/VQbXPv",
-		color: "#BDC524"
+		color: "black"
 	},
 
 	{
@@ -72,7 +72,7 @@ const projects = [
 		image: flexPanelGallery,
 		url: "https://codepen.io/GalkaS/full/aqRzxN/",
 		sourceLink: "https://codepen.io/GalkaS/pen/aqRzxN",
-		color: "#733206"
+		color: "#3848c1"
 	},
 
 	{
