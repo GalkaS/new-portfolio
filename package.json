@@ -7,7 +7,7 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "npm run build && mv build/index.html build/200.html && surge build"
+    "deploy": "npm run build && surge public https://gala-gala.surge.sh"
   },
   "dependencies": {
     "gatsby": "^2.0.33",
