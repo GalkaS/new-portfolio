@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="buttonLink button">
         	<Button
-          text="CHECK MY PROJECTS"
+          text="CHECK OUT MY PROJECTS"
           path="/projectsPage" />
           </div>
       </div>
