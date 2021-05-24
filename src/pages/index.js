@@ -12,7 +12,7 @@ const Home = () => {
       <div className="redOverlay"></div>
     	<div className="container">
         <div className="header">
-          <Header text="HI. I'M GALA." />
+          <Header text="HI, I'M GALA." />
         </div>
         <div className="descr">
           <Description />
