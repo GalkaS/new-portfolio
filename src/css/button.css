@@ -10,6 +10,8 @@
   border-radius: 0.5em;
   width: auto;
   margin-top: 5em;
+  margin-bottom: 2em;
+
 }
 
 .buttonComponent:hover {
