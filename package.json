@@ -10,7 +10,7 @@
     "deploy": "npm run build && surge public https://gala-gala.surge.sh"
   },
   "dependencies": {
-    "gatsby": "^2.0.33",
+    "gatsby": "^2.32.13",
     "normalize.css": "^8.0.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
